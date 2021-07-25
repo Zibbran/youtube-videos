@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading1 {
+  padding: 1rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(46, 107, 180, 1) 0%,
+    rgba(239, 0, 255, 0.7206232834930848) 100%
+  );
+  border: 6px solid black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courgette", cursive;
+}
+
+[class*="video"] {
+  text-align: center;
+}
